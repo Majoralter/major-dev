@@ -30,7 +30,7 @@ document.querySelector("#app").innerHTML = `
 
       <div class="projects">
         <div class="project">
-          <img src="./public/images/projectShot01.jpg" alt="Snapshot of a website on a gradient background" />
+          <img src="/images/projectShot01.jpg" alt="Snapshot of a website on a gradient background" />
 
           <div>
             <h3>Portfolio for a UX designer</h3>
@@ -46,7 +46,7 @@ document.querySelector("#app").innerHTML = `
           </div>
         </div>
         <div class="project">
-          <img src="./public/images/projectShot02.jpg" alt="Snapshot of a website on a gradient background" />
+          <img src="/images/projectShot02.jpg" alt="Snapshot of a website on a gradient background" />
 
           <div>
             <h3>Web app for latest football news, <br /> highlights and more</h3>
@@ -63,7 +63,7 @@ document.querySelector("#app").innerHTML = `
           </div>
         </div>
         <div class="project">
-          <img src="./public/images/projectShot03.jpg" alt="Snapshot of a website on a gradient background" />
+          <img src="/images/projectShot03.jpg" alt="Snapshot of a website on a gradient background" />
 
           <div>
             <h3>Landing page for a saving platform</h3>
