@@ -21,7 +21,7 @@ document.querySelector("#app").innerHTML = `
       </h1>
       
       <p>
-        Hello, <br/> I'm a frontend web developer based in Lagos, Nigeria. <br/> I mainly work with React but I've used a number of tools <br /> and languages like Svelte, Gsap, Firebase, and a number of <br /> different libraries. When I'm not working, I mostly spend my <br /> time researching stuff related to development, playing fps <br /> games or reading fantasy novels. 
+        Hello, <br/> I'm a frontend web developer based in Lagos, Nigeria. <br/> I mainly work with React but I've used a number of tools <br /> and languages like Svelte, Gsap, Firebase, and a number of <br /> different libraries. When I'm not working, I mostly spend my <br /> time researching stuff related to development, playing fps <br /> games or reading fiction. 
       </p>
     </section>
 
