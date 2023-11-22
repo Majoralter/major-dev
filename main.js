@@ -90,7 +90,7 @@ document.querySelector("#app").innerHTML = `
       
       <ul>
         <li><a href="mailto:jenrolajackson@gmail.com">Get in touch</a></li>
-        <li><a href="" target="_blank">Twitter</a></li>
+        <li><a href="https://twitter.com/MajorAlter" target="_blank">Twitter</a></li>
       </ul>
     </footer>
   </main>
