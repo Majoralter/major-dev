@@ -1,0 +1,38 @@
+nav{
+    padding: var(--size-3) var(--size-4);
+    @include flex(row, center, space-between, 0);
+
+    .logo{
+        color: #f2f2f2;
+        font-size: var(--font-size-fluid-0);
+        text-transform: uppercase;
+    }
+    ul{
+        @include flex(row, flex-start, center, 1em);
+        height: fit-content;
+
+        li{
+            a{
+                color: #f2f2f2;
+                font-size: 14px;
+            }
+
+            a{
+                &::after{
+                    content: "";
+                    display: block;
+                    height: 1px;
+                    width: 0;
+                    background-color: #f2f2f2;
+                    transition: width .3s var(--ease-3);
+                }
+
+                &:hover{
+                    &::after{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

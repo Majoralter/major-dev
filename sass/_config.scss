@@ -1,0 +1,36 @@
+@import "https://unpkg.com/open-props";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700&family=Great+Vibes&display=swap");
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background: var(--gradient-8);
+  min-height: 100dvh;
+}
+
+html,body{
+    overflow-x: hidden;
+    scroll-behavior: smooth !important;
+}
+
+@mixin flex($flex-direction, $align-items, $justify-content, $gap) {
+  display: flex;
+  flex-direction: $flex-direction;
+  align-items: $align-items;
+  justify-content: $justify-content;
+  gap: $gap;
+}
+
+main {
+  @include flex(column, center, center, 2em);
+  padding: var(--size-fluid-1) var(--size-fluid-2);
+}

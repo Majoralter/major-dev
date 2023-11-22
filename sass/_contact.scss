@@ -1,0 +1,45 @@
+main {
+  .contact--section {
+    @include flex(column, center, center, 1em);
+    min-height: 40dvh;
+    width: 100%;
+
+    h4 {
+      font-size: var(--font-size-fluid-3);
+      color: #f2f2f2;
+      font-weight: 500;
+
+      span {
+        font-family: "Great Vibes", cursive;
+        text-transform: capitalize;
+      }
+    }
+
+    ul {
+      @include flex(row, center, center, 2em);
+      flex-wrap: wrap;
+
+      li {
+        a {
+          color: orangered;
+          font-size: var(--font-size-fluid-2);
+
+          &::after {
+            content: "";
+            display: block;
+            height: 1px;
+            width: 0;
+            background-color: orangered;
+            transition: width 0.3s var(--ease-3);
+          }
+
+          &:hover {
+            &::after {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
