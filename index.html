@@ -1,13 +1,131 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
     <title>Jenrola's web development portfolio</title>
   </head>
   <body>
-    <div id="app"></div>
+    <nav>
+      <a class="logo" href="/"> Jenrola Jackson </a>
+
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="cta">Get in touch</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="hero--section">
+        <div class="container"></div>
+        <h1>
+          <span>J</span>enrola <span>J</span>ackson <br />
+          Frontend web <br />
+          developer.<br />
+          'Folio 2023
+        </h1>
+
+        <p>
+          Hello, <br />
+          I'm a frontend web developer based in Lagos, Nigeria. <br />
+          I mainly work with React but I've used a number of tools <br />
+          and languages like Svelte, Gsap, Firebase, and a number of <br />
+          different libraries. When I'm not working, I mostly spend my <br />
+          time researching stuff related to development, playing fps <br />
+          games or reading fiction.
+        </p>
+      </section>
+
+      <section class="projects--section" id="projects">
+        <h2><span>S</span>elected <span>P</span>rojects</h2>
+
+        <div class="projects">
+          <div class="project">
+            <img
+              src="/images/projectShot01.jpg"
+              alt="Snapshot of a website on a gradient background"
+            />
+
+            <div>
+              <h3>Portfolio for a UX designer</h3>
+
+              <ul>
+                <li>2023</li>
+                <li>Single page</li>
+                <li>Svelte</li>
+                <li>Gsap</li>
+              </ul>
+
+              <a href="https://nneoma-folio.vercel.app/" target="_blank"
+                >View Live</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <img
+              src="/images/projectShot02.jpg"
+              alt="Snapshot of a website on a gradient background"
+            />
+
+            <div>
+              <h3>
+                Web app for latest football news, <br />
+                highlights and more
+              </h3>
+
+              <ul>
+                <li>2023</li>
+                <li>Multi page</li>
+                <li>Svelte</li>
+                <li>Firebase</li>
+                <li>Api</li>
+              </ul>
+
+              <a href="https://footnet-v2.vercel.app/" target="_blank"
+                >View Live</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <img
+              src="/images/projectShot03.jpg"
+              alt="Snapshot of a website on a gradient background"
+            />
+
+            <div>
+              <h3>Landing page for a saving platform</h3>
+
+              <ul>
+                <li>2023</li>
+                <li>Single page</li>
+                <li>React</li>
+                <li>Web design</li>
+              </ul>
+
+              <a href="https://savewise.vercel.app/" target="_blank"
+                >View Live</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <a href="https://github.com/Majoralter?tab=repositories"
+          >View more on Github</a
+        >
+      </section>
+
+      <footer class="contact--section" id="contact">
+        <h4><span>H</span>ave a <span>P</span>roject in mind?</h4>
+
+        <ul>
+          <li><a href="mailto:jenrolajackson@gmail.com">Get in touch</a></li>
+          <li>
+            <a href="https://twitter.com/MajorAlter" target="_blank">Twitter</a>
+          </li>
+        </ul>
+      </footer>
+    </main>
     <script type="module" src="/main.js"></script>
-    
   </body>
 </html>
